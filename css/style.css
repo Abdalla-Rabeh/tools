@@ -1,0 +1,30 @@
+form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+}
+label{font-size: 20px;}
+input{
+    display: block;
+    padding: 10px 10px 5px 5px;
+    box-shadow: 1px 0px 0 rgb(0 0 0 / 20%);
+    background: #f0f0f0f0;
+}
+textarea{
+    resize: none;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 1px 0px 0 rgb(0 0 0 / 20%);
+}
+button{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: #007bff;
+    color: #fff;
+}
